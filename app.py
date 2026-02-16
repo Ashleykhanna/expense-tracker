@@ -7,7 +7,6 @@ from datetime import datetime, timedelta
 from functools import wraps
 
 
-# Helper functions (previously in helpers.py)
 def login_required(f):
     """
     Decorate routes to require login.
